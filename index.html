@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edison: El Portal del Genio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Chivo:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="lightning-canvas"></canvas>
+
+    <header class="students-header">
+        <div class="glass-shelf">
+            <span class="label">EQUIPO DE EXPOSICIÓN</span>
+            <div class="names-shelf">
+                <span>Andrés Hoyos</span>
+                <span>Juan Losada</span>
+                <span>Andrés Rivera</span>
+                <span>Dianiel Pancho</span>
+                <span>Juan Delgado</span>
+                <span>Juan Dulce</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- LANDING PAGE PORTAL -->
+    <div id="landing-portal">
+        <section id="video-section">
+            <div class="video-crop">
+                <video autoplay muted loop playsinline id="edison-video">
+                    <source src="Esto dijo Thomas edison..... #thomasedison #frases #fouryoupage #motivation.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+        </section>
+
+        <div class="portal-main-content">
+            <div class="portal-header">
+                <div class="luxury-badge">BIENVENIDO AL SIGLO XIX</div>
+                <h1>EL INTERRUPTOR DEL GENIO</h1>
+                <p>Descubre la chispa que iluminó la era moderna</p>
+            </div>
+            <div class="portal-grid">
+            <div class="portal-card" data-url="biography.html">
+                <div class="card-image" style="background-image: url('pequeño.webp')"></div>
+                <div class="card-overlay">
+                    <h2>Biografía</h2>
+                    <p>El origen del mago</p>
+                </div>
+            </div>
+            <div class="portal-card" data-url="bulb.html">
+                <div class="card-image" style="background-image: url('foto periodico.jpg')"></div>
+                <div class="card-overlay">
+                    <h2>La Bombilla</h2>
+                    <p>Perfeccionando la luz</p>
+                </div>
+            </div>
+            <div class="portal-card" data-url="commercialization.html">
+                <div class="card-image" style="background-image: url('foto.webp')"></div>
+                <div class="card-overlay">
+                    <h2>El Negocio</h2>
+                    <p>La visión de mercado</p>
+                </div>
+            </div>
+            <div class="portal-card" data-url="inventions.html">
+                <div class="card-image" style="background-image: url('inventos2.webp')"></div>
+                <div class="card-overlay">
+                    <h2>Inventos</h2>
+                    <p>Más allá del cristal</p>
+                </div>
+            </div>
+            <div class="portal-card" data-url="experiments.html">
+                <div class="card-image" style="background-image: url('Inventos Thomas Alva.jpg')"></div>
+                <div class="card-overlay">
+                    <h2>Fracasos</h2>
+                    <p>Experimentos locos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
